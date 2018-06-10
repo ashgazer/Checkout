@@ -1,4 +1,5 @@
 from Checkout import Checkout
 
-def test_canInstantiateCheckout():
+def test_canAddItemPrice():
     checkout = Checkout()
+    checkout.addItemPrice('a',1)
